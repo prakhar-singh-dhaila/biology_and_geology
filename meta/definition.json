@@ -1,0 +1,128 @@
+{
+  "definition": {
+    "learning-objectives": {
+      "Learning Objective 1": {
+        "learning-objectives": {}
+      }
+    },
+    "tags": {
+      "Reading": {
+        "tags": {}
+      },
+      "Videos": {
+        "tags": {}
+      },
+      "Practice": {
+        "tags": {}
+      },
+      "Test": {
+        "tags": {}
+      }
+    }
+  },
+  "items": {
+    "default": [
+      {
+        "item-type": "folder",
+        "name": "Study Materials",
+        "sub-type": "default",
+        "item-code": "1577258768830",
+        "items": [
+          {
+            "item-type": "folder",
+            "name": "Chapter 1",
+            "sub-type": "default",
+            "item-code": "1577258768830/1577258832424",
+            "items": [
+              {
+                "item-type": "folder",
+                "name": "Unit 1",
+                "sub-type": "default",
+                "item-code": "1577258768830/1577258832424/1577258832425",
+                "items": [
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0001",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Introduction",
+                    "tracking": true,
+                    "item-code": "1577258768830/1577258832424/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0002",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Test your understanding 1",
+                    "tracking": true,
+                    "item-code": "1577258768830/1577258832424/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0003",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Test your understanding 2",
+                    "tracking": true,
+                    "item-code": "1577258768830/1577258832424/1577258832425/1577258832427"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "generic": {
+      "RE_0001": {
+        "sub-type": "md",
+        "tags": [
+        ],
+        "md": {
+          "url": "introduction.md"
+        },
+        "description": "",
+        "learning-objectives": [
+          "Learning Objective 1"
+        ]
+      },
+      "RE_0002": {
+        "learning-objectives": [
+          "Learning Objective 1"
+        ],
+        "description": "",
+        "sub-type": "ext-cup-xapiscoreable",
+        "ext-cup-xapiscoreable": {
+          "url": "LO-Test4"
+        },
+        "tags": []
+      },
+      "RE_0003": {
+        "learning-objectives": [
+          "Learning Objective 1"
+        ],
+        "description": "",
+        "sub-type": "ext-cup-xapiscoreable",
+        "ext-cup-xapiscoreable": {
+          "url": "ext-cup-xapiscoreable/LO-Test4"
+        },
+        "tags": []
+      }
+    },
+    "test": {},
+    "ebook": {}
+  },
+  "meta": {
+    "schema": 1,
+    "title": "Biology and geology",
+    "code": "biology_and_geology",
+    "author": "Compro",
+    "thumbnailsmall": "",
+    "thumbnaillarge": "",
+    "description": "",
+    "producttype": "courseware"
+  }
+}
