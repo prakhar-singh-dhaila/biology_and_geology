@@ -54,18 +54,9 @@
                     "resource": "RE_0002",
                     "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Test your understanding 1",
+                    "name": "Test your understanding",
                     "tracking": true,
                     "item-code": "1577258768830/1577258832424/1577258832425/1577258832426"
-                  },
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0003",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Test your understanding 2",
-                    "tracking": true,
-                    "item-code": "1577258768830/1577258832424/1577258832425/1577258832427"
                   }
                 ]
               }
@@ -79,8 +70,7 @@
     "generic": {
       "RE_0001": {
         "sub-type": "md",
-        "tags": [
-        ],
+        "tags": [],
         "md": {
           "url": "introduction.md"
         },
@@ -97,17 +87,6 @@
         "sub-type": "ext-cup-xapiscoreable",
         "ext-cup-xapiscoreable": {
           "url": "LO-Test4"
-        },
-        "tags": []
-      },
-      "RE_0003": {
-        "learning-objectives": [
-          "Learning Objective 1"
-        ],
-        "description": "",
-        "sub-type": "ext-cup-xapiscoreable",
-        "ext-cup-xapiscoreable": {
-          "url": "ext-cup-xapiscoreable/LO-Test4"
         },
         "tags": []
       }
