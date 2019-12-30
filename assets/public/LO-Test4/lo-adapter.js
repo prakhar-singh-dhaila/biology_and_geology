@@ -34,10 +34,10 @@
 	var currentStatus = null;
 
 	// relative path for the item JSON
-	var jsonPath = "data/data.json";
+	/*var jsonPath = "data/data.json";*/
 
 	// var to hold unique ID for this LO
-	var contentId;
+	var activityLaunchId;
 
 	// various status which are sent to container / experience app
 	var status = {
@@ -46,7 +46,7 @@
 		CHANGE: 'change'
 	}
 
-	// initializing currentScore with initial score being 0
+	// initializing currentScore with 0
 	var currentScore = 0;
 
 
@@ -73,9 +73,11 @@
 				
 				
 			} else if (params.type === 'sendScores') {
-				return engine.sendScores(params.type);
+				//[Review] - Need clarification and purpose of this event
+				//return engine.sendScores(params.type);
 			} else if (params.type === 'reviewAnswers') {
-				return engine.reviewAnswers(params.type);
+				//[Review] - Need clarification and purpose of this event
+				//return engine.reviewAnswers(params.type);
 			} else if (params.type === 'goNext') {
 				
 				/*return engine.goToNextScreen(params.type);*/
@@ -182,35 +184,6 @@
 		});
 	}
 
-	/* Function called by the engine to pass new state to the container */
-	var newState = function (state) {
-		channel.call({
-			method: 'sendMessageToContainer',
-			params: {
-				type: 'newState',
-				data: state
-			},
-			success: function () { },
-			error: function () {
-				console.log('newState method error');
-			}
-		});
-	};
-
-	/* Function called by the engine to pass new statements generated to the container */
-	var newStatements = function (statement) {
-		channel.call({
-			method: 'sendMessageToContainer',
-			params: {
-				type: 'newStatements',
-				data: statement
-			},
-			success: function () { },
-			error: function () {
-				console.log('newStatements method error');
-			}
-		});
-	};
 
 	/* Function called by the engine to pass controls change data to the container */
 	var changeControlsVisibility = function (control, visible, buttonText) {
@@ -258,10 +231,22 @@
 			status: currentStatus,
 			score: currentScore
 		};
-		newState(currentState);
+		
+		channel.call({
+			method: 'sendMessageToContainer',
+			params: {
+				type: 'newState',
+				data: currentState
+			},
+			success: function () { },
+			error: function () {
+				console.log('newState method error');
+			}
+		});
+		
 	}
 
-	var launchLeonardoPlayer = function () {
+	var launchActivity = function () {
 
 		// registering the app with leonardo SDK
 		LeonardoApp.register();
@@ -270,9 +255,7 @@
 
 		let options = {
 			playerConfig: {
-				uiStyles: { 
-					dimensions: "content-dim"
-				},
+				
 				buttons: {
 					visible: !loWithoutControls
 				}
@@ -350,42 +333,30 @@
 		}
 		
 
-		fetch(jsonPath)
+		let baseURL = document.baseURI;
+		
+		// dataJSON is made available in the window by the index.html
+		var activityItems = dataJSON.map(item => {
+			if (item.type == "url") {
+				return baseURL + item[item.type];
+			}
+			else {
+				return item[item.type];
+			}
+		});
+		LeonardoApp.Activity.init(activityLaunchId, activityItems, container, options).then((player) => {
+			activity = player;
+		});
+
+		LeonardoApp.Activity.render(activityLaunchId);
+
+		/*fetch(jsonPath)
 			.then(res => res.json())
 			.then(function (itemArr) {
-				let baseURL = document.baseURI;
-				console.log("baseURL: ", baseURL);
-				console.log("document.location.href: ", document.location.href);
-				itemArr = itemArr.map( itemPath => baseURL+itemPath);
-				LeonardoApp.Activity.init(contentId, itemArr, container, options).then((player) => {
-					activity = player;
-				});
+				
+			});*/
 
-				LeonardoApp.Activity.render(contentId);
-			});
-
-		/*var jsonPath2 = "https://assessment-int-content.s3.us-east-2.amazonaws.com/lo-test-4/data/item_leo.json";
-		var jsonPath3 = "https://assessment-int-content.s3.us-east-2.amazonaws.com/lo-test-4/data/item_leo-2.json";
-		var jsonPath4 = "https://assessment-int-content.s3.us-east-2.amazonaws.com/lo-test-4/data/mcq_para_example.json";
-		var jsonPath5 = "https://assessment-int-content.s3.us-east-2.amazonaws.com/lo-test-4/data/mcq_video_example.json";
-
-		LeonardoApp.Activity.init(contentId, [jsonPath4, jsonPath5, jsonPath2], container, options)
-			.then((player) => {
-				activity = player;
-			});
-
-		LeonardoApp.Activity.render(contentId);*/
 		
-		
-		/*Promise.all([
-			fetch(jsonPath4).then(res => res.json()), 
-			fetch(jsonPath5).then(res => res.json()), 
-			fetch(jsonPath2).then(res => res.json())
-		]).then( itemJSONArr => {
-			
-			
-
-		} )*/
 	}
 
 	/* Function to generate statement - started/launched/scored etc.*/
@@ -398,7 +369,7 @@
 				}
 			},
 			object: {
-				"id": contentId
+				"id": activityLaunchId
 			}
 		};
 		if (verb === 'scored') {
@@ -413,7 +384,17 @@
 		}
 		var statementsArray = [];
 		statementsArray.push(statement);
-		newStatements(statementsArray);
+		channel.call({
+			method: 'sendMessageToContainer',
+			params: {
+				type: 'newStatements',
+				data: statementsArray
+			},
+			success: function () { },
+			error: function () {
+				console.log('newStatements method error');
+			}
+		});
 	};
 
 	/* DOM Ready event */
@@ -426,26 +407,22 @@
 				/* Get initiliazation paramters - contentPath and state, if any. */
 				getInitParameters(function (initParams) {
 
-					contentId = initParams.id || "launchId1";
-
+					activityLaunchId = initParams.id || "launchId1";
+					
 					loWithoutControls = initParams.hasOwnProperty('loWithoutControls') ? initParams.loWithoutControls : true;
 					if (initParams.hasOwnProperty('state') && initParams.state) {
 						currentState = initParams.state;
 					}
 
 					generateStatement('started');
-					launchLeonardoPlayer();
-
+					var script = 'https://sdk-dev.leonardodls.com/leo-client-sdk/' + ( (initParams && initParams.consumerKey) || "acct-consumer-key") + '/index.js';
+					/*var script = 'http://localhost:5200/leo-client-sdk/' + ( (initParams && initParams.consumerKey) || "acct-consumer-key") + '/index.js';*/
+					getScript(script, function () {
+						launchActivity();
+					});
 				});
 			});
 	});
 
-	/*return {
-		DOMReady: DOMReady,
-		newState: newState,
-		newStatements: newStatements,
-		changeControlsVisibility: changeControlsVisibility,
-		newDimensions: newDimensions
-	}*/
 })();
   
