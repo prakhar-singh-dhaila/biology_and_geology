@@ -70,8 +70,8 @@
 				activity.submit();
 				/*changeControlsVisibility('hint', false, 'Hints');*/
 				/*changeControlsVisibility ('checkAnswers', false, "Check My Work");*/
-				
-				
+
+
 			} else if (params.type === 'sendScores') {
 				//[Review] - Need clarification and purpose of this event
 				//return engine.sendScores(params.type);
@@ -79,36 +79,36 @@
 				//[Review] - Need clarification and purpose of this event
 				//return engine.reviewAnswers(params.type);
 			} else if (params.type === 'goNext') {
-				
+
 				/*return engine.goToNextScreen(params.type);*/
-				return activity.goToNextItem();	
+				return activity.goToNextItem();
 
 			} else if (params.type === 'goPrev') {
-				
+
 				/*return engine.goToPreviousScreen(params.type);*/
-				return activity.goToPreviousItem();	
+				return activity.goToPreviousItem();
 
 			} else if (params.type === 'close') {
-				
+
 				/*return closeConnections();*/
 				return activity.destroy();
 
 			} else if (params.type === 'hint') {
-				
+
 				let remainingHintsCount = activity.getCurrentItem().showHints();
-				
+
 				if (remainingHintsCount == 0) {
-					changeControlsVisibility ('hint', false, "Hints");
+					changeControlsVisibility('hint', false, "Hints");
 				}
 
 			} else if (params.type === 'currentScreen') {
-				
+
 				return activity.getItems().indexOf(activity.getCurrentItem());
 
 			} else if (params.type === 'totalScreens') {
-								
+
 				return activity.getItems().length;
-				
+
 			} else if (params.hasOwnProperty('type')) {
 				throw { error: "method_not_found", message: 'method not found' };
 			} else {
@@ -120,14 +120,14 @@
 	/* Function called when container calls the close method. This function calls engine closeLO method and notifies the 
 	   container once LO is properly closed and cleaning operations performed, if any */
 	var closeConnections = function () {
-		
+
 		channel.notify({
 			method: 'sendMessageToContainer',
 			params: {
 				type: 'terminated'
 			}
 		});
-		
+
 		/*var callback = function () {
 			
 		}
@@ -231,7 +231,7 @@
 			status: currentStatus,
 			score: currentScore
 		};
-		
+
 		channel.call({
 			method: 'sendMessageToContainer',
 			params: {
@@ -243,7 +243,7 @@
 				console.log('newState method error');
 			}
 		});
-		
+
 	}
 
 	var launchActivity = function () {
@@ -255,54 +255,48 @@
 
 		let options = {
 			playerConfig: {
-				
+
 				buttons: {
 					visible: !loWithoutControls
 				}
 			},
 			events: {
-				render: function (eventArgs) {
+				launched: function (eventArgs) {
 					if (currentState && currentState.data) {
 						activity.getCurrentItem().setState(currentState.data);
 					}
 					DOMReady();
 					firstItemReady();
-					
-					let dims = activity.getOptimumDimensions();
-					if(dims){
-						container.style.height = dims.height + "px";
-						container.style.width = dims.width + "px";
-						/*delete dims.width;*/
-						newDimensions( dims );
-					}
 
-					changeControlsVisibility ('checkAnswers', true, "Check Answer");
+					changeControlsVisibility('checkAnswers', false, "Check Answer");
+					changeControlsVisibility('checkAnswers', true, "Check Answer");
 
 					let itemCount = activity.getItemCount();
-					if( itemCount > 1){
-						changeControlsVisibility ('goPrev', true, "Previous");
-						changeControlsVisibility ('goNext', true, "Next");
-					}else{
-						changeControlsVisibility ('goNext', false, "Next");
-						changeControlsVisibility ('goPrev', false, "Previous");
-					}
 					
-					if(activity.getCurrentItem().hasHints()){
-						changeControlsVisibility ('hint', true, "Hints");
+					changeControlsVisibility('goNext', false, "Next");
+					changeControlsVisibility('goPrev', false, "Previous");
+					if (itemCount > 1) {
+						changeControlsVisibility('goPrev', true, "Previous");
+						changeControlsVisibility('goNext', true, "Next");
 					}
-					
+
+					changeControlsVisibility('hint', false, "Hints");
+					if (activity.getCurrentItem().hasHints()) {
+						changeControlsVisibility('hint', true, "Hints");
+					}
+
 				},
 				change: function (eventArgs) {
 					let previousStatus = currentStatus;
 					currentStatus = status.CHANGE;
 					updateState();
-					if(previousStatus != currentStatus){
-						changeControlsVisibility ('checkAnswers', false, "Check Answer");
-						changeControlsVisibility ('checkAnswers', true, "Check Answer");
+					if (previousStatus != currentStatus) {
+						changeControlsVisibility('checkAnswers', false, "Check Answer");
+						changeControlsVisibility('checkAnswers', true, "Check Answer");
 					}
 				},
 				destroy: function () {
-					
+
 					console.log('destroy event');
 					closeConnections();
 				},
@@ -310,31 +304,40 @@
 					currentScore = eventArgs.response.score[0].gotScore;
 					currentStatus = status.CHECKED;
 					updateState();
-					changeControlsVisibility ('hint', false, "Hints");
+					/*changeControlsVisibility('hint', false, "Hints");*/
 				},
 				reset: function (eventArgs) {
 					currentStatus = status.RESET;
 					updateState();
 				},
-				itemNavigation: function( eventArgs ){
+				itemNavigation: function (eventArgs) {
 					updatedItem = activity.getItem(eventArgs.updatedItem.index);
-					changeControlsVisibility ('hint', false, "Hints");
-					if(updatedItem.hasHints() && updatedItem.remainingHints()){
-						changeControlsVisibility ('hint', true, "Hints");
+					changeControlsVisibility('hint', false, "Hints");
+					if (updatedItem.hasHints() && updatedItem.remainingHints()) {
+						changeControlsVisibility('hint', true, "Hints");
 					}
 				},
 				error: function (eventArgs) {
 					console.log(eventArgs);
+				},
+				size: function (eventArgs) {
+					dims = eventArgs.size;
+					if (dims) {
+						container.style.height = dims.height + "px";
+						delete dims.width;
+						/*container.style.width = dims.width + "px";*/
+						newDimensions(dims);
+					}
 				}
 			},
 			uiStyles: {
 				horizontalAlignment: "center"
 			}
 		}
-		
+
 
 		let baseURL = document.baseURI;
-		
+
 		// dataJSON is made available in the window by the index.html
 		var activityItems = dataJSON.map(item => {
 			if (item.type == "url") {
@@ -356,7 +359,7 @@
 				
 			});*/
 
-		
+
 	}
 
 	/* Function to generate statement - started/launched/scored etc.*/
@@ -408,21 +411,28 @@
 				getInitParameters(function (initParams) {
 
 					activityLaunchId = initParams.id || "launchId1";
-					
+
 					loWithoutControls = initParams.hasOwnProperty('loWithoutControls') ? initParams.loWithoutControls : true;
 					if (initParams.hasOwnProperty('state') && initParams.state) {
 						currentState = initParams.state;
 					}
 
+					// setting conumer config based on init params and default consumer key present in the index.html of this LO
+					if(initParams && initParams.consumerConfig){
+						consumerConfig = initParams.consumerConfig;
+					}
+					if(consumerConfig){
+						LeonardoApp.setConfig( consumerConfig );
+					}
+					
 					generateStatement('started');
-					var script = 'https://sdk-dev.leonardodls.com/leo-client-sdk/' + ( (initParams && initParams.consumerKey) || "acct-consumer-key") + '/index.js';
-					/*var script = 'http://localhost:5200/leo-client-sdk/' + ( (initParams && initParams.consumerKey) || "acct-consumer-key") + '/index.js';*/
-					getScript(script, function () {
-						launchActivity();
-					});
+
+					launchActivity();
+
+					
+					
 				});
 			});
 	});
 
 })();
-  

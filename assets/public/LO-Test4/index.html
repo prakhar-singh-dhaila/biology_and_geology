@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jschannel@1.0.2/src/jschannel.min.js" charset="utf-8"></script>
-    <!-- <script src="https://sdk-dev.leonardodls.com/leo-client-sdk/acct-consumer-key/index.js"></script> -->
+    <script src="https://sdk-dev.leonardodls.com/leo-client-sdk/rKpyO1oGV8SLWtLq/index.js"></script>
     <script src="lo-adapter.js" type="text/javascript" charset="utf-8"></script>
   
   <style>
@@ -34,6 +34,8 @@
       <div id="player-container"></div>
 
         <script>
+          // global variable being used inside lo-adapter
+          // var stores the collection of items to be loaded in activity
           var dataJSON = [
             {
                 "type": "url",
@@ -41,9 +43,13 @@
             },
             {
                 "type": "url",
-                "url": "data/mcq_radio_video_example-v2.json"
+                "url": "data/mcq_radio_video_example.json"
             }
           ];
+
+          // global variable being used inside lo-adapter
+          var consumerConfig ;
+          
         </script>
 
   </body>
