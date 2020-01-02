@@ -63,6 +63,23 @@
             ]
           }
         ]
+      },
+      {
+        "item-type": "folder",
+        "name": "Practice Tests",
+        "sub-type": "default",
+        "item-code": "1577258768831",
+        "items": [
+          {
+            "item-type": "resource",
+            "resource": "RE_0002",
+            "pass-score": 0.7,
+            "contributes-to-completion": true,
+            "name": "Test your understanding",
+            "tracking": true,
+            "item-code": "1577258768831/1577258832424"
+          }
+        ]
       }
     ]
   },
