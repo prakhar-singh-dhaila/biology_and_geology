@@ -301,7 +301,7 @@
 					closeConnections();
 				},
 				checkAnswer: function (eventArgs) {
-					currentScore = eventArgs.response.score[0].gotScore;
+					currentScore = eventArgs.response.score[activity.getCurrentItemIndex()].score.raw;
 					currentStatus = status.CHECKED;
 					updateState();
 					/*changeControlsVisibility('hint', false, "Hints");*/
@@ -311,7 +311,7 @@
 					updateState();
 				},
 				itemNavigation: function (eventArgs) {
-					updatedItem = activity.getItem(eventArgs.updatedItem.index);
+					updatedItem = activity.getItem(eventArgs.currentItem.index);
 					changeControlsVisibility('hint', false, "Hints");
 					if (updatedItem.hasHints() && updatedItem.remainingHints()) {
 						changeControlsVisibility('hint', true, "Hints");
