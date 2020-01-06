@@ -55,15 +55,9 @@
 	var bindChannel = function (channel) {
 		channel.bind('receiveMessageFromContainer', function (trans, params) {
 			if (params.type === 'checkAnswers') {
-
-				activity.submit();
-				/*changeControlsVisibility('hint', false, 'Hints');*/
-				/*changeControlsVisibility ('checkAnswers', false, "Check My Work");*/
-
-
+				activity.checkAnswer(checkAnswerCallback.bind(this));
 			} else if (params.type === 'sendScores') {
-				//[Review] - Need clarification and purpose of this event
-				//return engine.sendScores(params.type);
+				activity.submit(submitCallback.bind(this));
 			} else if (params.type === 'reviewAnswers') {
 				//[Review] - Need clarification and purpose of this event
 				//return engine.reviewAnswers(params.type);
@@ -105,6 +99,56 @@
 			}
 		});
 	};
+
+	/**
+	 * This is the callback function invoked on activity.checkAnswer()
+	 */
+	var checkAnswerCallback = function(){
+		updateState();
+		updateCheckAnswerBtnStatus(true, false);
+		updateHintBtnStatus(true, false);
+	};
+
+	/**
+	 * This is the callback function invoked on activity.submit()
+	 *
+	 * @param {*} eventArgs
+	 */
+	var submitCallback = function(eventArgs){
+		let payload = {
+			min: eventArgs.response.score.min,
+			max: eventArgs.response.score.max,
+			raw: eventArgs.response.score.raw,
+			scaled: eventArgs.response.score.scaled
+		}
+		updateState();
+		generateStatement('scored', payload);
+		updateCheckAnswerBtnStatus(true, false);
+		updateHintBtnStatus(true, false);
+		showResult(payload.raw);
+	};
+
+	/**
+	 * Function invoked to show the result screen in the container
+	 * @param {*} score
+	 */
+	var showResult = function(score){
+		var params = {
+			type: 'showResult',
+			data: {
+				score: score,
+				review: true
+			}
+		};
+		channel.call({
+			method: 'sendMessageToContainer',
+			params: params,
+			success: function () { },
+			error: function () {
+				console.log('showResult method error');
+			}
+		});
+	}
 
 	/* Function called when container calls the close method. This function calls engine closeLO method and notifies the
 	   container once LO is properly closed and cleaning operations performed, if any */
@@ -263,22 +307,7 @@
 					console.log('destroy event');
 					closeConnections();
 				},
-				checkAnswer: function (eventArgs) {
-					//currentScore = eventArgs.response.score[activity.getCurrentItemIndex()].score.raw;
-					currentStatus = status.CHECKED;
-					let payload = {
-						min: eventArgs.response.score.min,
-						max: eventArgs.response.score.max,
-						raw: eventArgs.response.score.raw,
-						scaled: eventArgs.response.score.scaled
-					}
-					updateState();
-					generateStatement('scored', payload);
-					updateCheckAnswerBtnStatus(true, false);
-					updateHintBtnStatus(true, false);
-				},
 				reset: function (eventArgs) {
-					currentStatus = status.RESET;
 					updateState();
 					updateHintBtnStatus();
 				},
