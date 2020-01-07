@@ -68,22 +68,21 @@
         "item-type": "folder",
         "name": "Practice Tests",
         "sub-type": "default",
-        "item-code": "1577258768831",
+        "item-code": "1577258768835",
         "items": [
           {
             "item-type": "resource",
-            "resource": "RE_0002",
+            "resource": "RE_0003",
             "pass-score": 0.7,
             "contributes-to-completion": true,
             "name": "Test your understanding",
             "tracking": true,
-            "item-code": "1577258768831/1577258832424"
+            "item-code": "1577258768835/1577258832426"
           }
         ]
       }
     ]
   },
-  
   "resources": {
     "generic": {
       "RE_0001": {
@@ -105,6 +104,17 @@
         "sub-type": "ext-cup-xapiscoreable",
         "ext-cup-xapiscoreable": {
           "url": "LO-Test5"
+        },
+        "tags": []
+      },
+      "RE_0003": {
+        "learning-objectives": [
+          "Learning Objective 1"
+        ],
+        "description": "",
+        "sub-type": "ext-cup-xapiscoreable",
+        "ext-cup-xapiscoreable": {
+          "url": "LO-Test4"
         },
         "tags": []
       }
