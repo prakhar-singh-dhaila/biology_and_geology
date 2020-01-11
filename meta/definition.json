@@ -103,7 +103,7 @@
         "description": "",
         "sub-type": "ext-cup-xapiscoreable",
         "ext-cup-xapiscoreable": {
-          "url": "mcqr-radio-lo",
+          "url": "drag-drop-lo",
           "cup-options": {
             "questionCount": "3",
             "totalScore": "6"
@@ -118,7 +118,7 @@
         "description": "",
         "sub-type": "ext-cup-xapiscoreable",
         "ext-cup-xapiscoreable": {
-          "url": "drag-drop-lo",
+          "url": "mcqr-radio-lo",
           "cup-options": {
             "questionCount": "3",
             "totalScore": "6"
