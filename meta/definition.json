@@ -118,7 +118,7 @@
         "description": "",
         "sub-type": "ext-cup-xapiscoreable",
         "ext-cup-xapiscoreable": {
-          "url": "mcqr-radio-lo",
+          "url": "LO-1",
           "cup-options": {
             "questionCount": "3",
             "totalScore": "6"
