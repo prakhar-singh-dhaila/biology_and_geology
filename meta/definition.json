@@ -142,7 +142,7 @@
         "description": "",
         "sub-type": "ext-cup-xapiscoreable",
         "ext-cup-xapiscoreable": {
-          "url": "LO-1",
+          "url": "LO-2",
           "cup-options": {
             "questionCount": "3",
             "totalScore": "6"
