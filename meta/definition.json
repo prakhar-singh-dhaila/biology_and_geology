@@ -71,22 +71,38 @@
         "item-code": "1577258768835",
         "items": [
           {
-            "item-type": "resource",
-            "resource": "RE_0003",
-            "pass-score": 0.7,
-            "contributes-to-completion": true,
-            "name": "Test your understanding",
-            "tracking": true,
-            "item-code": "1577258768835/1577258832426"
-          },
-          {
-            "item-type": "resource",
-            "resource": "RE_0004",
-            "pass-score": 0.7,
-            "contributes-to-completion": true,
-            "name": "Test your understanding",
-            "tracking": true,
-            "item-code": "1577258768835/1577258832427"
+            "item-type": "folder",
+            "name": "Chapter 1",
+            "sub-type": "default",
+            "item-code": "1577258768835/1577258832424",
+            "items": [
+              {
+                "item-type": "folder",
+                "name": "Unit 1",
+                "sub-type": "default",
+                "item-code": "1577258768835/1577258832424/1577258832425",
+                "items": [
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0003",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Pon a prueba tu comprensión",
+                    "tracking": true,
+                    "item-code": "1577258768835/1577258832424/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0004",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Test your understanding",
+                    "tracking": true,
+                    "item-code": "1577258768835/1577258832424/1577258832425/1577258832427"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
