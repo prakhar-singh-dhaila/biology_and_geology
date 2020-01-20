@@ -101,6 +101,8 @@
 				return activity.getItems().length;
 			}  else if (params.type === 'tryAgain') {
 				activity.retry(retryCallback.bind(this));
+			}  else if (params.type === 'reset') {
+				activity.reset();
 			} else if (params.hasOwnProperty('type')) {
 				throw { error: "method_not_found", message: 'method not found' };
 			} else {
@@ -149,10 +151,11 @@
 		}
 		updateState();
 		generateStatement('scored', payload);
+		isReviewMode = true;
 		updateCheckAnswerBtnStatus(true, false);
 		updateTryAgainBtnStatus(true, false);
 		updateHintBtnStatus(true, false);
-		showResult(payload.raw);
+		showResult(payload.scaled);
 	};
 
 	/**
@@ -310,6 +313,8 @@
 				},
 				reset: function (eventArgs) {
 					updateState();
+					updateCheckAnswerBtnStatus();
+					updateTryAgainBtnStatus();
 					updateHintBtnStatus();
 				},
 				itemNavigation: function (eventArgs) {
