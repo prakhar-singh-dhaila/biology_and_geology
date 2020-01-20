@@ -66,19 +66,19 @@
       },
       {
         "item-type": "folder",
-        "name": "Practice Tests",
+        "name": "Práctica",
         "sub-type": "default",
         "item-code": "1577258768835",
         "items": [
           {
             "item-type": "folder",
-            "name": "Chapter 1",
+            "name": "La organización del cuerpo humano",
             "sub-type": "default",
             "item-code": "1577258768835/1577258832424",
             "items": [
               {
                 "item-type": "folder",
-                "name": "Unit 1",
+                "name": "Pruébate",
                 "sub-type": "default",
                 "item-code": "1577258768835/1577258832424/1577258832425",
                 "items": [
@@ -146,7 +146,7 @@
   },
   "meta": {
     "schema": 1,
-    "title": "Biology and geology",
+    "title": "3.º ESO Biología y Geología. Savia. Serie Brezo",
     "code": "biology_and_geology",
     "author": "Compro",
     "thumbnailsmall": "",
