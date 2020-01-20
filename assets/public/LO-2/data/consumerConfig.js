@@ -2,20 +2,20 @@ var consumerConfig = {
     "players": {
       "playerMap": {
         "collection": "multi-item-activity-player",
-        "mcsr-radio": "mcq-block-player",
+        "mcsr-block": "mcq-block-player",
         "imagelabel-dnd": "image-label-dnd-player"
       },
       "modules": {
         "multi-item-activity-player": {
           "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/multi-item-activity-player/releases/",
-          "version": "0.0.12",
-          "js": "0.0.12/multiItemActivityPlayer",
-          "css": "0.0.12/multiItemActivityPlayer"
+          "version": "0.0.13",
+          "js": "0.0.13/multiItemActivityPlayer",
+          "css": "0.0.13/multiItemActivityPlayer"
         },
         "image-label-dnd-player": {
           "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/image-label-dnd-player/releases/",
-          "version": "0.0.5",
-          "js": "0.0.5/libs-imagelabel-dnd-item-player",
+          "version": "0.0.6",
+          "js": "0.0.6/libs-imagelabel-dnd-item-player",
           "dependencies": [
             "react",
             "react-dom",
@@ -24,8 +24,8 @@ var consumerConfig = {
         },
         "mcq-block-player": {
           "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/mcq-block-player/releases/",
-          "version": "0.0.5",
-          "js": "0.0.5/libs-mcsr-item-player",
+          "version": "0.0.7",
+          "js": "0.0.7/libs-mcsr-item-player",
           "dependencies": [
             "react",
             "react-dom",
@@ -44,8 +44,8 @@ var consumerConfig = {
         },
         "libs-player-ui-components": {
           "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/libs-player-ui-components/releases/",
-          "version": "0.0.4",
-          "js": "0.0.4/libs-player-ui-components"
+          "version": "0.0.6",
+          "js": "0.0.6/libs-player-ui-components"
         }
       }
     }

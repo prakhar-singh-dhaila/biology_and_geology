@@ -37,7 +37,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-html",
-              "data": "<div style='padding-left:15px;padding-right:15px;'><h3 style='font-family: Roboto, sans-serif;'>The air we breathe in, or inhale, is 21% oxygen, 0,03% carbon dioxide and 78% nitrogen. What about when we breathe out, or exhale?</h3></div>"
+              "data": "<h6>The air we breathe in, or inhale, is 21% oxygen, 0,03% carbon dioxide and 78% nitrogen. What about when we breathe out, or exhale?</h6>"
             }
           },
           "type": "item",
@@ -54,7 +54,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-html",
-              "data": "<div style='padding-left:15px;padding-right:15px;'><h3 style='font-family: Roboto, sans-serif;'>Smoking is the cause of more than 25 illnesses, including chronic bronchitis and lung cancer.</h3></div>"
+              "data": "<h6>Smoking is the cause of more than 25 illnesses, including chronic bronchitis and lung cancer.</h6>"
             }
           },
           "type": "item",
@@ -71,7 +71,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<p style='width: 100%;text-align: center;'><h3>Drag each word to its correct place on the picture.</h3></p>"
+              "data": "<h6>Drag each word to its correct place on the picture.</h6>"
             }
           },
           "type": "item",
@@ -90,7 +90,7 @@ var activityJson = {
       "itemId": {
         "itemId": "leonardo-dev-004",
         "type": "item",
-        "subType": "mcsr-radio",
+        "subType": "mcsr-block",
         "status": "complete",
         "displayType": "embedded",
         "toolName": "paint",
@@ -137,7 +137,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-html",
-              "data": "<div style='padding-left:15px;padding-right:15px;'><h3 style='font-family: Roboto, sans-serif;'>The air we breathe in, or inhale, is 21% oxygen, 0,03% carbon dioxide and 78% nitrogen. What about when we breathe out, or exhale?</h3></div>"
+              "data": "<h6>The air we breathe in, or inhale, is 21% oxygen, 0,03% carbon dioxide and 78% nitrogen. What about when we breathe out, or exhale?</h6>"
             }
           },
           "options": [
@@ -274,7 +274,7 @@ var activityJson = {
       "itemId": {
         "itemId": "leonardo-dev-005",
         "type": "item",
-        "subType": "mcsr-radio",
+        "subType": "mcsr-block",
         "status": "complete",
         "displayType": "embedded",
         "toolName": "paint",
@@ -321,7 +321,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-html",
-              "data": "<div style='padding-left:15px;padding-right:15px;'><h3 style='font-family: Roboto, sans-serif;'>Smoking is the cause of more than 25 illnesses, including chronic bronchitis and lung cancer.</h3></div>"
+              "data": "<h6>Smoking is the cause of more than 25 illnesses, including chronic bronchitis and lung cancer.</h6>"
             }
           },
           "options": [
@@ -475,7 +475,7 @@ var activityJson = {
           "stimulus": {
             "content": {
               "type": "item-xhtml",
-              "data": "<p style='width: 100%;text-align: center;'><h3>Drag each word to its correct place on the picture.</h3></p>"
+              "data": "<h6>Drag each word to its correct place on the picture.</h6>"
             }
           },
           "responseTemplate": {
@@ -568,7 +568,7 @@ var activityJson = {
               "id": "RC03",
               "pos": {
                 "x": "6%",
-                "y": "68%"
+                "y": "71%"
               },
               "feedback": {
                 "correct": {
@@ -589,7 +589,7 @@ var activityJson = {
               "id": "RC04",
               "pos": {
                 "x": "73%",
-                "y": "7%"
+                "y": "4%"
               },
               "feedback": {
                 "correct": {
