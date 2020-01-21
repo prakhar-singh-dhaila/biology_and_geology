@@ -568,7 +568,7 @@ var activityJson = {
               "id": "RC03",
               "pos": {
                 "x": "6%",
-                "y": "71%"
+                "y": "66%"
               },
               "feedback": {
                 "correct": {
