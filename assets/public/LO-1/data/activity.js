@@ -226,7 +226,7 @@ var activityJson = {
               "id": "RC03",
               "pos": {
                 "x": "4%",
-                "y": "75%"
+                "y": "78%"
               },
               "feedback": {
                 "correct": {
@@ -690,8 +690,8 @@ var activityJson = {
             {
               "id": "RC02",
               "pos": {
-                "x": "23%",
-                "y": "72%"
+                "x": "25%",
+                "y": "71%"
               },
               "feedback": {
                 "correct": {
@@ -732,7 +732,7 @@ var activityJson = {
             {
               "id": "RC04",
               "pos": {
-                "x": "78%",
+                "x": "75%",
                 "y": "72%"
               },
               "feedback": {
@@ -876,4 +876,4 @@ var activityJson = {
       }
     }
   }
-}
+};
