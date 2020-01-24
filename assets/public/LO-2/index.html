@@ -422,7 +422,7 @@
 			checkAnswerBtnVisible = false;
 		}
 		else {
-			let currentItemStatus = activityState ? activityState.itemBody.questions[activity.getCurrentItemIndex()].outcome.status : "NotStarted";
+			let currentItemStatus = activityState ? activity.getCurrentItemStatus() : "NotStarted";
 			if (currentItemStatus == "InProgress") {
 				if (checkAnswerBtnVisible == false) {
 					changeControlsVisibility('checkAnswers', true, "Check Answer");
@@ -446,7 +446,7 @@
 			tryAgainBtnVisible = false;
 		}
 		else {
-			let currentItemStatus = activityState ? activityState.itemBody.questions[activity.getCurrentItemIndex()].outcome.status : "NotStarted";
+			let currentItemStatus = activityState ? activity.getCurrentItemStatus() : "NotStarted";
 			if (currentItemStatus == "Completed") {
 				if (tryAgainBtnVisible == false) {
 					changeControlsVisibility('tryAgain', true, "Try Again");
@@ -471,7 +471,7 @@
 			hintBtnVisible = false;
 		}
 		else {
-			let currentItemStatus = activityState ? activityState.itemBody.questions[activity.getCurrentItemIndex()].outcome.status : "NotStarted";
+			let currentItemStatus = activityState ? activity.getCurrentItemStatus() : "NotStarted";
 			if (activity.getCurrentItem().hasHints() && activity.getCurrentItem().remainingHints() != 0 && currentItemStatus != "Completed") {
 				if (hintBtnVisible == false) {
 					changeControlsVisibility('hint', true, "Hints");
