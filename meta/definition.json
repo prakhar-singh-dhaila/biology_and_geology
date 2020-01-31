@@ -24,39 +24,173 @@
     "default": [
       {
         "item-type": "folder",
-        "name": "Study Materials",
+        "name": "Study and Learn",
         "sub-type": "default",
-        "item-code": "1577258768830",
+        "item-code": "1577258768831",
+        "attribs": {
+          "componentKey": "studylearn"
+        },
         "items": [
           {
             "item-type": "folder",
-            "name": "Chapter 1",
+            "name": "La organización del cuerpo humano",
             "sub-type": "default",
-            "item-code": "1577258768830/1577258832424",
+            "item-code": "1577258768831/1577258832421",
             "items": [
               {
                 "item-type": "folder",
-                "name": "Unit 1",
+                "name": "Pruébate",
                 "sub-type": "default",
-                "item-code": "1577258768830/1577258832424/1577258832425",
+                "item-code": "1577258768831/1577258832421/1577258832425",
                 "items": [
                   {
                     "item-type": "resource",
-                    "resource": "RE_0003",
+                    "resource": "RE_0001",
                     "pass-score": 0.7,
                     "contributes-to-completion": true,
                     "name": "Test your understanding",
                     "tracking": true,
-                    "item-code": "1577258768830/1577258832424/1577258832425/1577258832426"
+                    "item-code": "1577258768831/1577258832421/1577258832425/1577258832426"
                   },
                   {
                     "item-type": "resource",
-                    "resource": "RE_0004",
+                    "resource": "RE_0002",
+                    "contributes-to-completion": true,
+                    "name": "Presentation activity",
+                    "tracking": true,
+                    "item-code": "1577258768831/1577258832421/1577258832425/1577258832427"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item-type": "folder",
+            "name": "De los alimentos a los nutrientes",
+            "sub-type": "default",
+            "item-code": "1577258768831/1577258832422",
+            "items": [
+              {
+                "item-type": "folder",
+                "name": "Pruébate",
+                "sub-type": "default",
+                "item-code": "1577258768831/1577258832422/1577258832425",
+                "items": [
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0001",
                     "pass-score": 0.7,
                     "contributes-to-completion": true,
                     "name": "Test your understanding",
                     "tracking": true,
-                    "item-code": "1577258768830/1577258832424/1577258832425/1577258832427"
+                    "item-code": "1577258768831/1577258832422/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0002",
+                    "contributes-to-completion": true,
+                    "name": "Presentation activity",
+                    "tracking": true,
+                    "item-code": "1577258768831/1577258832422/1577258832425/1577258832427"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item-type": "folder",
+            "name": "Los alimentos y la dieta",
+            "sub-type": "default",
+            "item-code": "1577258768831/1577258832423",
+            "items": [
+              {
+                "item-type": "folder",
+                "name": "Pruébate",
+                "sub-type": "default",
+                "item-code": "1577258768831/1577258832423/1577258832425",
+                "items": [
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0001",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Test your understanding",
+                    "tracking": true,
+                    "item-code": "1577258768831/1577258832423/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0002",
+                    "contributes-to-completion": true,
+                    "name": "Presentation activity",
+                    "tracking": true,
+                    "item-code": "1577258768831/1577258832423/1577258832425/1577258832427"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item-type": "folder",
+            "name": "La eliminación de desechos y el transporte",
+            "sub-type": "default",
+            "item-code": "1577258768831/1577258832424",
+            "items": [
+              {
+                "item-type": "folder",
+                "name": "Pruébate",
+                "sub-type": "default",
+                "item-code": "1577258768831/1577258832424/1577258832425",
+                "items": [
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0001",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Test your understanding",
+                    "tracking": true,
+                    "item-code": "1577258768831/1577258832424/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0002",
+                    "contributes-to-completion": true,
+                    "name": "Presentation activity",
+                    "tracking": true,
+                    "item-code": "1577258768831/1577258832424/1577258832425/1577258832427"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item-type": "folder",
+            "name": "La coordinación de nuestro organismo",
+            "sub-type": "default",
+            "item-code": "1577258768831/1577258832425",
+            "items": [
+              {
+                "item-type": "folder",
+                "name": "Pruébate",
+                "sub-type": "default",
+                "item-code": "1577258768831/1577258832425/1577258832425",
+                "items": [
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0001",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Test your understanding",
+                    "tracking": true,
+                    "item-code": "1577258768831/1577258832425/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0002",
+                    "contributes-to-completion": true,
+                    "name": "Presentation activity",
+                    "tracking": true,
+                    "item-code": "1577258768831/1577258832425/1577258832425/1577258832427"
                   }
                 ]
               }
@@ -66,13 +200,115 @@
       },
       {
         "item-type": "folder",
-        "name": "Práctica",
+        "name": "Practice Tests",
         "sub-type": "default",
         "item-code": "1577258768835",
+        "attribs": {
+          "componentKey": "practice"
+        },
         "items": [
           {
             "item-type": "folder",
             "name": "La organización del cuerpo humano",
+            "sub-type": "default",
+            "item-code": "1577258768835/1577258832421",
+            "items": [
+              {
+                "item-type": "folder",
+                "name": "Pruébate",
+                "sub-type": "default",
+                "item-code": "1577258768835/1577258832421/1577258832425",
+                "items": [
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0001",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Test your understanding",
+                    "tracking": true,
+                    "item-code": "1577258768835/1577258832421/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0002",
+                    "contributes-to-completion": true,
+                    "name": "Presentation activity",
+                    "tracking": true,
+                    "item-code": "1577258768835/1577258832421/1577258832425/1577258832427"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item-type": "folder",
+            "name": "De los alimentos a los nutrientes",
+            "sub-type": "default",
+            "item-code": "1577258768835/1577258832422",
+            "items": [
+              {
+                "item-type": "folder",
+                "name": "Pruébate",
+                "sub-type": "default",
+                "item-code": "1577258768835/1577258832422/1577258832425",
+                "items": [
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0001",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Test your understanding",
+                    "tracking": true,
+                    "item-code": "1577258768835/1577258832422/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0002",
+                    "contributes-to-completion": true,
+                    "name": "Presentation activity",
+                    "tracking": true,
+                    "item-code": "1577258768835/1577258832422/1577258832425/1577258832427"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item-type": "folder",
+            "name": "Los alimentos y la dieta",
+            "sub-type": "default",
+            "item-code": "1577258768835/1577258832423",
+            "items": [
+              {
+                "item-type": "folder",
+                "name": "Pruébate",
+                "sub-type": "default",
+                "item-code": "1577258768835/1577258832423/1577258832425",
+                "items": [
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0001",
+                    "pass-score": 0.7,
+                    "contributes-to-completion": true,
+                    "name": "Test your understanding",
+                    "tracking": true,
+                    "item-code": "1577258768835/1577258832423/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0002",
+                    "contributes-to-completion": true,
+                    "name": "Presentation activity",
+                    "tracking": true,
+                    "item-code": "1577258768835/1577258832423/1577258832425/1577258832427"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item-type": "folder",
+            "name": "La eliminación de desechos y el transporte",
             "sub-type": "default",
             "item-code": "1577258768835/1577258832424",
             "items": [
@@ -84,21 +320,53 @@
                 "items": [
                   {
                     "item-type": "resource",
-                    "resource": "RE_0003",
+                    "resource": "RE_0001",
                     "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Pon a prueba tu comprensión",
+                    "name": "Test your understanding",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832424/1577258832425/1577258832426"
                   },
                   {
                     "item-type": "resource",
-                    "resource": "RE_0004",
+                    "resource": "RE_0002",
+                    "contributes-to-completion": true,
+                    "name": "Presentation activity",
+                    "tracking": true,
+                    "item-code": "1577258768835/1577258832424/1577258832425/1577258832427"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item-type": "folder",
+            "name": "La coordinación de nuestro organismo",
+            "sub-type": "default",
+            "item-code": "1577258768835/1577258832425",
+            "items": [
+              {
+                "item-type": "folder",
+                "name": "Pruébate",
+                "sub-type": "default",
+                "item-code": "1577258768835/1577258832425/1577258832425",
+                "items": [
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0001",
                     "pass-score": 0.7,
                     "contributes-to-completion": true,
                     "name": "Test your understanding",
                     "tracking": true,
-                    "item-code": "1577258768835/1577258832424/1577258832425/1577258832427"
+                    "item-code": "1577258768835/1577258832425/1577258832425/1577258832426"
+                  },
+                  {
+                    "item-type": "resource",
+                    "resource": "RE_0002",
+                    "contributes-to-completion": true,
+                    "name": "Presentation activity",
+                    "tracking": true,
+                    "item-code": "1577258768835/1577258832425/1577258832425/1577258832427"
                   }
                 ]
               }
@@ -110,33 +378,53 @@
   },
   "resources": {
     "generic": {
+      "RE_0001": {
+        "learning-objectives": [
+          "Learning Objective 1"
+        ],
+        "description": "",
+        "sub-type": "ext-cup-xapiscoreable",
+        "interaction-type": "practice",
+        "ext-cup-xapiscoreable": {
+          "url": "LO-1"
+        },
+        "attribs": {
+          "model": {
+            "total-score": "11",
+            "question-count": "3"
+          }
+        },
+        "tags": []
+      },
+      "RE_0002": {
+        "learning-objectives": [
+          "Learning Objective 1"
+        ],
+        "description": "",
+        "sub-type": "ext-cup-xapiscoreable",
+        "interaction-type": "practice",
+        "ext-cup-xapiscoreable": {
+          "url": "LO-2"
+        },
+        "attribs": {
+          "model": {
+            "total-score": "9",
+            "question-count": "3"
+          }
+        },
+        "tags": []
+      },
       "RE_0003": {
         "learning-objectives": [
           "Learning Objective 1"
         ],
         "description": "",
-        "sub-type": "ext-cup-xapiscoreable",
-        "ext-cup-xapiscoreable": {
-          "url": "LO-1",
-          "cup-options": {
-            "questionCount": "3",
-            "totalScore": "11"
-          }
+        "sub-type": "ext-cup-xapi",
+        "ext-cup-xapi": {
+          "url": "LO-3"
         },
-        "tags": []
-      },
-      "RE_0004": {
-        "learning-objectives": [
-          "Learning Objective 1"
-        ],
-        "description": "",
-        "sub-type": "ext-cup-xapiscoreable",
-        "ext-cup-xapiscoreable": {
-          "url": "LO-2",
-          "cup-options": {
-            "questionCount": "3",
-            "totalScore": "9"
-          }
+        "attribs": {
+          "model": {}
         },
         "tags": []
       }
@@ -149,9 +437,27 @@
     "title": "3.º ESO Biología y Geología. Savia. Serie Brezo",
     "code": "biology_and_geology",
     "author": "Compro",
-    "thumbnailsmall": "",
-    "thumbnaillarge": "",
+    "thumbnailsmall": "Book Cover.jpg",
+    "thumbnaillarge": "Book Cover.jpg",
     "description": "",
-    "producttype": "courseware"
+    "producttype": "courseware",
+    "model": {
+      "type": "engage-courseware",
+      "style": "secondary-type-1",
+      "subject": "Biologia y geologia",
+      "course": "",
+      "level": "3.º ESO",
+      "isbn": "978-84-675-7600-9",
+      "components": [
+        {
+          "type": "studylearn",
+          "title": "Study and Learn"
+        },
+        {
+          "type": "practice",
+          "title": "Practice Tests"
+        }
+      ]
+    }
   }
 }
