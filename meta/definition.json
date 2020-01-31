@@ -224,15 +224,16 @@
                     "resource": "RE_0001",
                     "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Test your understanding",
+                    "name": "Pon a prueba tu comprensión",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832421/1577258832425/1577258832426"
                   },
                   {
                     "item-type": "resource",
                     "resource": "RE_0002",
+                    "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Presentation activity",
+                    "name": "Test your understanding",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832421/1577258832425/1577258832427"
                   }
@@ -257,15 +258,16 @@
                     "resource": "RE_0001",
                     "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Test your understanding",
+                    "name": "Pon a prueba tu comprensión",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832422/1577258832425/1577258832426"
                   },
                   {
                     "item-type": "resource",
                     "resource": "RE_0002",
+                    "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Presentation activity",
+                    "name": "Test your understanding",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832422/1577258832425/1577258832427"
                   }
@@ -290,15 +292,16 @@
                     "resource": "RE_0001",
                     "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Test your understanding",
+                    "name": "Pon a prueba tu comprensión",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832423/1577258832425/1577258832426"
                   },
                   {
                     "item-type": "resource",
                     "resource": "RE_0002",
+                    "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Presentation activity",
+                    "name": "Test your understanding",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832423/1577258832425/1577258832427"
                   }
@@ -323,15 +326,16 @@
                     "resource": "RE_0001",
                     "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Test your understanding",
+                    "name": "Pon a prueba tu comprensión",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832424/1577258832425/1577258832426"
                   },
                   {
                     "item-type": "resource",
                     "resource": "RE_0002",
+                    "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Presentation activity",
+                    "name": "Test your understanding",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832424/1577258832425/1577258832427"
                   }
@@ -356,15 +360,16 @@
                     "resource": "RE_0001",
                     "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Test your understanding",
+                    "name": "Pon a prueba tu comprensión",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832425/1577258832425/1577258832426"
                   },
                   {
                     "item-type": "resource",
                     "resource": "RE_0002",
+                    "pass-score": 0.7,
                     "contributes-to-completion": true,
-                    "name": "Presentation activity",
+                    "name": "Test your understanding",
                     "tracking": true,
                     "item-code": "1577258768835/1577258832425/1577258832425/1577258832427"
                   }
