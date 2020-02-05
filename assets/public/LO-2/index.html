@@ -537,7 +537,7 @@
 					loWithoutControls = initParams.hasOwnProperty('loWithoutControls') ? initParams.loWithoutControls : true;
 					if (initParams.hasOwnProperty('state') && initParams.state) {
 						activityState = initParams.state;
-						if(activityState.status == "Completed") {
+						if(initParams.status == "completed") {
 							isReviewMode = true;
 						}
 					}
