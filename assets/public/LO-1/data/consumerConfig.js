@@ -14,8 +14,8 @@ var consumerConfig = {
       },
       "image-label-dnd-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/image-label-dnd-player/releases/",
-        "version": "0.0.12",
-        "js": "0.0.12/libs-imagelabel-dnd-item-player",
+        "version": "0.0.13",
+        "js": "0.0.13/libs-imagelabel-dnd-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -24,8 +24,8 @@ var consumerConfig = {
       },
       "mcq-radio-player": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/mcq-radio-player/releases/",
-        "version": "0.0.13",
-        "js": "0.0.13/libs-mcsr-radio-item-player",
+        "version": "0.0.14",
+        "js": "0.0.14/libs-mcsr-radio-item-player",
         "dependencies": [
           "react",
           "react-dom",
@@ -44,8 +44,8 @@ var consumerConfig = {
       },
       "libs-player-ui-components": {
         "baseURL": "https://d3f2ws3vg5f2o9.cloudfront.net/modules/libs-player-ui-components/releases/",
-        "version": "0.0.10",
-        "js": "0.0.10/libs-player-ui-components"
+        "version": "0.0.11",
+        "js": "0.0.11/libs-player-ui-components"
       }
     }
   }
