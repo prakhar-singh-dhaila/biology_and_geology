@@ -89,6 +89,7 @@
 			} else if (params.type === 'goPrev') {
 				return activity.goToPreviousItem();
 			} else if (params.type === 'close') {
+				updateState();
 				return activity.destroy();
 			} else if (params.type === 'hint') {
 				let remainingHintsCount = activity.getCurrentItem().showHints();
