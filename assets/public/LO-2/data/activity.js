@@ -222,19 +222,19 @@ var activityJson = {
             "general": {
               "content": {
                 "type": "item-text",
-                "data": "General Feedback"
+                "data": ""
               }
             },
             "correct": {
               "content": {
                 "type": "item-text",
-                "data": "Feedback For Correct Answer"
+                "data": ""
               }
             },
             "incorrect": {
               "content": {
                 "type": "item-text",
-                "data": "Feedback For Incorrect Answer"
+                "data": ""
               }
             }
           },
@@ -380,19 +380,19 @@ var activityJson = {
             "general": {
               "content": {
                 "type": "item-text",
-                "data": "General Feedback"
+                "data": ""
               }
             },
             "correct": {
               "content": {
                 "type": "item-text",
-                "data": "Feedback For Correct Answer"
+                "data": ""
               }
             },
             "incorrect": {
               "content": {
                 "type": "item-text",
-                "data": "Feedback For Incorrect Answer"
+                "data": ""
               }
             }
           },
@@ -489,7 +489,7 @@ var activityJson = {
               "id": "O1",
               "content": {
                 "type": "item-text",
-                "data": "Gallbladder"
+                "data": "Gall bladder"
               }
             },
             {
@@ -589,7 +589,7 @@ var activityJson = {
               "id": "RC04",
               "pos": {
                 "x": "73%",
-                "y": "4%"
+                "y": "8%"
               },
               "feedback": {
                 "correct": {
@@ -645,7 +645,7 @@ var activityJson = {
             {
               "validationId": "v2",
               "responseContainer": "RC02",
-              "correctResponse": "Gallbladder",
+              "correctResponse": "Gall bladder",
               "operator": "text_equals"
             },
             {
@@ -705,19 +705,19 @@ var activityJson = {
             "general": {
               "content": {
                 "type": "item-text",
-                "data": "General Feedback"
+                "data": ""
               }
             },
             "correct": {
               "content": {
                 "type": "item-text",
-                "data": "Feedback For Correct Answer"
+                "data": ""
               }
             },
             "incorrect": {
               "content": {
                 "type": "item-text",
-                "data": "Feedback For Incorrect Answer"
+                "data": ""
               }
             }
           },
