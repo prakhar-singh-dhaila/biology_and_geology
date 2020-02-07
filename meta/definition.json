@@ -26,7 +26,8 @@
         "item-type": "folder",
         "name": "Study and Learn",
         "sub-type": "default",
-        "item-code": "1577258768831"
+        "item-code": "1577258768831",
+        "items": []
       },
       {
         "item-type": "folder",
