@@ -24,14 +24,7 @@
     "default": [
       {
         "item-type": "folder",
-        "name": "Study and Learn",
-        "sub-type": "default",
-        "item-code": "1577258768831",
-        "items": []
-      },
-      {
-        "item-type": "folder",
-        "name": "Practice Tests",
+        "name": "practice",
         "sub-type": "default",
         "item-code": "1577258768835",
         "items": [
