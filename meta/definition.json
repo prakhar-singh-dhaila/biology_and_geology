@@ -21,202 +21,1557 @@
     }
   },
   "items": {
-    "default": [
-      {
-        "item-type": "folder",
-        "name": "practice",
-        "sub-type": "default",
-        "item-code": "1577258768835",
-        "items": [
-          {
-            "item-type": "folder",
-            "name": "La organización del cuerpo humano",
-            "sub-type": "default",
-            "item-code": "1577258768835/1577258832421",
-            "items": [
-              {
-                "item-type": "folder",
-                "name": "TEST YOURSELF",
-                "sub-type": "default",
-                "item-code": "1577258768835/1577258832421/1577258832425",
-                "items": [
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0001",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Pon a prueba tu comprensión",
-                    "tracking": true,
-                    "item-code": "1577258768835/1577258832421/1577258832425/1577258832426"
-                  },
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0002",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Test your understanding",
-                    "tracking": true,
-                    "item-code": "1577258768835/1577258832421/1577258832425/1577258832427"
-                  }
-                ]
-              }
-            ],
-            "attribs": {
-              "thubsnail": "images/toc-thumbs/chapter1.png"
+  "default": [
+    {
+      "item-type": "folder",
+      "name": "practice",
+      "sub-type": "default",
+      "item-code": "1577258768810",
+      "items": [
+        {
+          "item-type": "folder",
+          "name": "La organización del cuerpo humano",
+          "sub-type": "default",
+          "item-code": "1577258768810/1577258768001",
+          "items": [
+            {
+              "item-type": "folder",
+              "name": "TEST YOURSELF",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768001/1577258760001",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0001",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Autoevaluación",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768001/1577258760001/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0002",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Test your understanding",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768001/1577258760001/1577258700002"
+                }
+              ]
             }
-          },
-          {
-            "item-type": "folder",
-            "name": "De los alimentos a los nutrientes",
-            "sub-type": "default",
-            "item-code": "1577258768835/1577258832422",
-            "items": [
-              {
-                "item-type": "folder",
-                "name": "TEST YOURSELF",
-                "sub-type": "default",
-                "item-code": "1577258768835/1577258832422/1577258832425",
-                "items": [
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0001",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Pon a prueba tu comprensión",
-                    "tracking": true,
-                    "item-code": "1577258768835/1577258832422/1577258832425/1577258832426"
-                  },
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0002",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Test your understanding",
-                    "tracking": true,
-                    "item-code": "1577258768835/1577258832422/1577258832425/1577258832427"
-                  }
-                ]
-              }
-            ],
-            "attribs": {
-              "thubsnail": "images/toc-thumbs/chapter2.png"
-            }
-          },
-          {
-            "item-type": "folder",
-            "name": "Los alimentos y la dieta",
-            "sub-type": "default",
-            "item-code": "1577258768835/1577258832423",
-            "items": [
-              {
-                "item-type": "folder",
-                "name": "TEST YOURSELF",
-                "sub-type": "default",
-                "item-code": "1577258768835/1577258832423/1577258832425",
-                "items": [
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0001",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Pon a prueba tu comprensión",
-                    "tracking": true,
-                    "item-code": "1577258768835/1577258832423/1577258832425/1577258832426"
-                  },
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0002",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Test your understanding",
-                    "tracking": true,
-                    "item-code": "1577258768835/1577258832423/1577258832425/1577258832427"
-                  }
-                ]
-              }
-            ],
-            "attribs": {
-              "thubsnail": "images/toc-thumbs/chapter3.png"
-            }
-          },
-          {
-            "item-type": "folder",
-            "name": "La eliminación de desechos y el transporte",
-            "sub-type": "default",
-            "item-code": "1577258768835/1577258832424",
-            "items": [
-              {
-                "item-type": "folder",
-                "name": "TEST YOURSELF",
-                "sub-type": "default",
-                "item-code": "1577258768835/1577258832424/1577258832425",
-                "items": [
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0001",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Pon a prueba tu comprensión",
-                    "tracking": true,
-                    "item-code": "1577258768835/1577258832424/1577258832425/1577258832426"
-                  },
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0002",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Test your understanding",
-                    "tracking": true,
-                    "item-code": "1577258768835/1577258832424/1577258832425/1577258832427"
-                  }
-                ]
-              }
-            ],
-            "attribs": {
-              "thubsnail": "images/toc-thumbs/chapter4.png"
-            }
-          },
-          {
-            "item-type": "folder",
-            "name": "La coordinación de nuestro organismo",
-            "sub-type": "default",
-            "item-code": "1577258768835/1577258832425",
-            "items": [
-              {
-                "item-type": "folder",
-                "name": "TEST YOURSELF",
-                "sub-type": "default",
-                "item-code": "1577258768835/1577258832425/1577258832425",
-                "items": [
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0001",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Pon a prueba tu comprensión",
-                    "tracking": true,
-                    "item-code": "1577258768835/1577258832425/1577258832425/1577258832426"
-                  },
-                  {
-                    "item-type": "resource",
-                    "resource": "RE_0002",
-                    "pass-score": 0.7,
-                    "contributes-to-completion": true,
-                    "name": "Test your understanding",
-                    "tracking": true,
-                    "item-code": "1577258768835/1577258832425/1577258832425/1577258832427"
-                  }
-                ]
-              }
-            ],
-            "attribs": {
-              "thubsnail": "images/toc-thumbs/chapter5.png"
-            }
+          ],
+          "attribs": {
+            "thubsnail": "images/toc-thumbs/chapter1.png"
           }
-        ]
-      }
-    ]
-  },
+        },
+        {
+          "item-type": "folder",
+          "name": "De los alimentos a los nutrientes",
+          "sub-type": "default",
+          "item-code": "1577258768810/1577258768002",
+          "items": [
+            {
+              "item-type": "folder",
+              "name": "WATCH",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768002/1577258760001",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Orgánulos celulares y sus funciones",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760001/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET'S UNDERSTAND",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768002/1577258760002",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La estructura del núcleo",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760002/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La especialización de las células",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760002/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los tejido",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760002/1577258700003"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los sistemas corporales (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760002/1577258700004"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S PRACTISE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768002/1577258760003",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "¿Cómo funcionan las células?",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760003/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S INVESTIGATE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768002/1577258760004",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Distingue entre tejido animal y vegetal",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760004/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Del intestino delgado a la célula intestinal (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760004/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Modelo 3d de célula humana (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760004/1577258700003"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "APPLY YOUR KNOWLEDGE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768002/1577258760005",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Identifica  los tejidos",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760005/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "TEST YOURSELF",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768002/1577258760006",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Autoevaluación",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760006/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Resumen",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768002/1577258760006/1577258700002"
+                }
+              ]
+            }
+          ],
+          "attribs": {
+            "thubsnail": "images/toc-thumbs/chapter2.png"
+          }
+        },
+        {
+          "item-type": "folder",
+          "name": "Los alimentos y la dieta",
+          "sub-type": "default",
+          "item-code": "1577258768810/1577258768003",
+          "items": [
+            {
+              "item-type": "folder",
+              "name": "WATCH",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768003/1577258760001",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Orgánulos celulares y sus funciones",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760001/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET'S UNDERSTAND",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768003/1577258760002",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La estructura del núcleo",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760002/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La especialización de las células",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760002/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los tejido",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760002/1577258700003"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los sistemas corporales (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760002/1577258700004"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S PRACTISE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768003/1577258760003",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "¿Cómo funcionan las células?",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760003/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S INVESTIGATE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768003/1577258760004",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Distingue entre tejido animal y vegetal",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760004/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Del intestino delgado a la célula intestinal (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760004/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Modelo 3d de célula humana (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760004/1577258700003"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "APPLY YOUR KNOWLEDGE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768003/1577258760005",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Identifica  los tejidos",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760005/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "TEST YOURSELF",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768003/1577258760006",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Autoevaluación",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760006/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Resumen",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768003/1577258760006/1577258700002"
+                }
+              ]
+            }
+          ],
+          "attribs": {
+            "thubsnail": "images/toc-thumbs/chapter3.png"
+          }
+        },
+        {
+          "item-type": "folder",
+          "name": "La eliminación de desechos y el transporte",
+          "sub-type": "default",
+          "item-code": "1577258768810/1577258768004",
+          "items": [
+            {
+              "item-type": "folder",
+              "name": "WATCH",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768004/1577258760001",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Orgánulos celulares y sus funciones",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760001/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET'S UNDERSTAND",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768004/1577258760002",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La estructura del núcleo",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760002/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La especialización de las células",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760002/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los tejido",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760002/1577258700003"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los sistemas corporales (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760002/1577258700004"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S PRACTISE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768004/1577258760003",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "¿Cómo funcionan las células?",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760003/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S INVESTIGATE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768004/1577258760004",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Distingue entre tejido animal y vegetal",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760004/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Del intestino delgado a la célula intestinal (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760004/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Modelo 3d de célula humana (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760004/1577258700003"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "APPLY YOUR KNOWLEDGE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768004/1577258760005",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Identifica  los tejidos",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760005/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "TEST YOURSELF",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768004/1577258760006",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Autoevaluación",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760006/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Resumen",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768004/1577258760006/1577258700002"
+                }
+              ]
+            }
+          ],
+          "attribs": {
+            "thubsnail": "images/toc-thumbs/chapter4.png"
+          }
+        },
+        {
+          "item-type": "folder",
+          "name": "La coordinación de nuestro organismo",
+          "sub-type": "default",
+          "item-code": "1577258768810/1577258768005",
+          "items": [
+            {
+              "item-type": "folder",
+              "name": "WATCH",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768005/1577258760001",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Orgánulos celulares y sus funciones",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760001/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET'S UNDERSTAND",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768005/1577258760002",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La estructura del núcleo",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760002/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La especialización de las células",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760002/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los tejido",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760002/1577258700003"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los sistemas corporales (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760002/1577258700004"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S PRACTISE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768005/1577258760003",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "¿Cómo funcionan las células?",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760003/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S INVESTIGATE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768005/1577258760004",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Distingue entre tejido animal y vegetal",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760004/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Del intestino delgado a la célula intestinal (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760004/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Modelo 3d de célula humana (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760004/1577258700003"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "APPLY YOUR KNOWLEDGE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768005/1577258760005",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Identifica  los tejidos",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760005/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "TEST YOURSELF",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768005/1577258760006",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Autoevaluación",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760006/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Resumen",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768005/1577258760006/1577258700002"
+                }
+              ]
+            }
+          ],
+          "attribs": {
+            "thubsnail": "images/toc-thumbs/chapter5.png"
+          }
+        },
+        {
+          "item-type": "folder",
+          "name": "Receptores y efectores. Estímulos y respuestas",
+          "sub-type": "default",
+          "item-code": "1577258768810/1577258768006",
+          "items": [
+            {
+              "item-type": "folder",
+              "name": "WATCH",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768006/1577258760001",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Orgánulos celulares y sus funciones",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760001/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET'S UNDERSTAND",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768006/1577258760002",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La estructura del núcleo",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760002/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La especialización de las células",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760002/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los tejido",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760002/1577258700003"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los sistemas corporales (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760002/1577258700004"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S PRACTISE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768006/1577258760003",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "¿Cómo funcionan las células?",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760003/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S INVESTIGATE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768006/1577258760004",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Distingue entre tejido animal y vegetal",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760004/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Del intestino delgado a la célula intestinal (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760004/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Modelo 3d de célula humana (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760004/1577258700003"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "APPLY YOUR KNOWLEDGE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768006/1577258760005",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Identifica  los tejidos",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760005/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "TEST YOURSELF",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768006/1577258760006",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Autoevaluación",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760006/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Resumen",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768006/1577258760006/1577258700002"
+                }
+              ]
+            }
+          ],
+          "attribs": {
+            "thubsnail": "images/toc-thumbs/chapter6.png"
+          }
+        },
+        {
+          "item-type": "folder",
+          "name": "La reproducción",
+          "sub-type": "default",
+          "item-code": "1577258768810/1577258768007",
+          "items": [
+            {
+              "item-type": "folder",
+              "name": "WATCH",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768007/1577258760001",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Orgánulos celulares y sus funciones",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760001/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET'S UNDERSTAND",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768007/1577258760002",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La estructura del núcleo",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760002/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La especialización de las células",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760002/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los tejido",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760002/1577258700003"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los sistemas corporales (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760002/1577258700004"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S PRACTISE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768007/1577258760003",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "¿Cómo funcionan las células?",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760003/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S INVESTIGATE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768007/1577258760004",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Distingue entre tejido animal y vegetal",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760004/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Del intestino delgado a la célula intestinal (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760004/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Modelo 3d de célula humana (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760004/1577258700003"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "APPLY YOUR KNOWLEDGE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768007/1577258760005",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Identifica  los tejidos",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760005/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "TEST YOURSELF",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768007/1577258760006",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Autoevaluación",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760006/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Resumen",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768007/1577258760006/1577258700002"
+                }
+              ]
+            }
+          ],
+          "attribs": {
+            "thubsnail": "images/toc-thumbs/chapter7.png"
+          }
+        },
+        {
+          "item-type": "folder",
+          "name": "La salud y la enfermedad",
+          "sub-type": "default",
+          "item-code": "1577258768810/1577258768008",
+          "items": [
+            {
+              "item-type": "folder",
+              "name": "WATCH",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768008/1577258760001",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Orgánulos celulares y sus funciones",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760001/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET'S UNDERSTAND",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768008/1577258760002",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La estructura del núcleo",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760002/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La especialización de las células",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760002/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los tejido",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760002/1577258700003"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los sistemas corporales (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760002/1577258700004"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S PRACTISE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768008/1577258760003",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "¿Cómo funcionan las células?",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760003/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S INVESTIGATE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768008/1577258760004",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Distingue entre tejido animal y vegetal",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760004/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Del intestino delgado a la célula intestinal (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760004/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Modelo 3d de célula humana (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760004/1577258700003"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "APPLY YOUR KNOWLEDGE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768008/1577258760005",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Identifica  los tejidos",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760005/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "TEST YOURSELF",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768008/1577258760006",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Autoevaluación",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760006/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Resumen",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768008/1577258760006/1577258700002"
+                }
+              ]
+            }
+          ],
+          "attribs": {
+            "thubsnail": "images/toc-thumbs/chapter8.png"
+          }
+        },
+        {
+          "item-type": "folder",
+          "name": "Los ecosistemas",
+          "sub-type": "default",
+          "item-code": "1577258768810/1577258768009",
+          "items": [
+            {
+              "item-type": "folder",
+              "name": "WATCH",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768009/1577258760001",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Orgánulos celulares y sus funciones",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760001/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET'S UNDERSTAND",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768009/1577258760002",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La estructura del núcleo",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760002/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La especialización de las células",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760002/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los tejido",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760002/1577258700003"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los sistemas corporales (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760002/1577258700004"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S PRACTISE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768009/1577258760003",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "¿Cómo funcionan las células?",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760003/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S INVESTIGATE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768009/1577258760004",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Distingue entre tejido animal y vegetal",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760004/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Del intestino delgado a la célula intestinal (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760004/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Modelo 3d de célula humana (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760004/1577258700003"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "APPLY YOUR KNOWLEDGE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768009/1577258760005",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Identifica  los tejidos",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760005/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "TEST YOURSELF",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768009/1577258760006",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Autoevaluación",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760006/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Resumen",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768009/1577258760006/1577258700002"
+                }
+              ]
+            }
+          ],
+          "attribs": {
+            "thubsnail": "images/toc-thumbs/chapter9.png"
+          }
+        },
+        {
+          "item-type": "folder",
+          "name": "Desequilibrios en los ecosistemas",
+          "sub-type": "default",
+          "item-code": "1577258768810/1577258768010",
+          "items": [
+            {
+              "item-type": "folder",
+              "name": "WATCH",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768010/1577258760001",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Orgánulos celulares y sus funciones",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760001/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET'S UNDERSTAND",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768010/1577258760002",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La estructura del núcleo",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760002/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "La especialización de las células",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760002/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los tejido",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760002/1577258700003"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Los sistemas corporales (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760002/1577258700004"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S PRACTISE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768010/1577258760003",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "¿Cómo funcionan las células?",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760003/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "LET’S INVESTIGATE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768010/1577258760004",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Distingue entre tejido animal y vegetal",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760004/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Del intestino delgado a la célula intestinal (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760004/1577258700002"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Modelo 3d de célula humana (enlace externo)",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760004/1577258700003"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "APPLY YOUR KNOWLEDGE",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768010/1577258760005",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Identifica  los tejidos",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760005/1577258700001"
+                }
+              ]
+            },
+            {
+              "item-type": "folder",
+              "name": "TEST YOURSELF",
+              "sub-type": "default",
+              "item-code": "1577258768810/1577258768010/1577258760006",
+              "items": [
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Autoevaluación",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760006/1577258700001"
+                },
+                {
+                  "item-type": "resource",
+                  "resource": "RE_0003",
+                  "pass-score": 0.7,
+                  "contributes-to-completion": true,
+                  "name": "Resumen",
+                  "tracking": true,
+                  "item-code": "1577258768810/1577258768010/1577258760006/1577258700002"
+                }
+              ]
+            }
+          ],
+          "attribs": {
+            "thubsnail": "images/toc-thumbs/chapter10.png"
+          }
+        }
+      ]
+    }
+  ]
+},
   "resources": {
     "generic": {
       "RE_0001": {
@@ -256,6 +1611,17 @@
           }
         },
         "tags": []
+      },
+      "RE_0003": {
+        "learning-objectives": [
+          "Learning Objective 1"
+        ],
+        "description": "",
+        "sub-type": "html",
+        "html": {
+          "url": ""
+        },
+        "tags": []
       }
     },
     "test": {},
@@ -273,11 +1639,11 @@
     "model": {
       "type": "engage-courseware",
       "style": "secondary-type-1",
-      "subject": "BIOLOGIA Y GEOLOGIA",
+      "subject": "BIOLOGÍA Y GEOLOGÍA",
       "course": "3.º",
       "level": "ESO",
       "isbn": "978-84-675-7600-9",
-      "series":"BREZO (SAVIA)"
+      "series": "BREZO (SAVIA)"
     }
   }
 }
